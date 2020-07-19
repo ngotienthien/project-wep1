@@ -1,0 +1,419 @@
+@import 'signUP.css';
+
+/*
+  css-navbar
+*/
+
+.navbarstyle {
+    background-color: rgb(39, 190, 206);
+}
+
+#icontuvan {
+    width: 44px;
+    height: 30px;
+    background-image: url('../img/iconmenu.png');
+    background-position: 0px 0px;
+    margin: auto;   
+}
+
+
+#icontintuc {
+    width: 44px;
+    height: 30px;
+    background-image: url('../img/iconmenu.png');
+    background-position: 0px -30px;
+    margin: auto;
+}
+
+#iconlaptop {
+    width: 44px;
+    height: 30px;
+    background-image: url('../img/iconmenu.png');
+    background-position: 0px -60px;
+    margin: auto;
+}
+
+#iconpc {
+    width: 40px;
+    height: 30px;
+    background-image: url('../img/iconmenu.png');
+    background-position: 0px -90px;
+    margin: auto;
+}
+
+#iconlinhkien {
+    width: 44px;
+    height: 30px;
+    background-image: url('../img/iconmenu.png');
+    background-position: 0px -125px;
+    margin: auto;
+}
+
+#iconkhuyenmai {
+    width: 44px;
+    height: 30px;
+    background-image: url('../img/iconmenu.png');
+    background-position: 0px -165px;
+    margin: auto;
+}
+
+#iconnguoidung {
+    width: 44px;
+    height: 30px;
+    background-image: url('../img/iconmenu.png');
+    background-position: 0px -195px;
+    margin: auto;
+    margin-top: 0;
+    padding: 0;
+}
+
+#icongiohang {
+    width: 44px;
+    height: 30px;
+    background-image: url('../img/iconmenu.png');
+    background-position: 0px -230px;
+    margin: auto;
+}
+
+.iconnav {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    width: 80px;
+    margin: auto;
+}
+
+.nav-item a:hover {
+    background-color: black;
+}
+
+#dienthoai {
+    text-align: center;
+    line-height: 57px;
+    padding-left: 10px;
+}
+
+#dienthoai a {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+
+.menunavbar li {
+    position: relative;
+}
+
+.menunavbar li>.menutaikhoan {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    z-index: 5;
+    padding: 0px;
+    margin: 0px;
+    font-size: 13;
+    width: 130px;
+    list-style-type: none;
+}
+
+.menunavbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menunavbar li a:hover {
+    color: rgb(39, 190, 206);
+}
+
+.menunavbar li:hover .menutaikhoan {
+    display: block;
+}
+
+.resize {
+    width: 55%;
+    height: 35px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.resizesearch{
+    height: 35px;
+    background-color: #ff9933;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*
+    hết navbar
+
+    css search nâng cao
+*/
+
+
+
+.iconhangsanxuat {
+    text-align: center;
+    line-height: 35px;
+}
+
+.iconhangsanxuat a {
+    display: block;
+}
+
+.iconhangsanxuat a:hover {
+    background-color: aquamarine;
+}
+
+.danhsachgiaa{
+    display: inline-block;
+    background-color:whitesmoke;
+    color: black;
+    margin-left: 10px;
+}
+
+.danhsachgia a:hover {
+    background-color: rgb(39, 190, 206);
+    color: white;
+}
+
+.danhsachloaisanphama {
+    display: inline-block;
+    background-color: whitesmoke;
+    color: black;
+    margin-left: 10px;
+}
+
+.danhsachloaisanpham a:hover {
+    background-color: rgb(39, 190, 206);
+    color: white;
+}
+
+#locsanpham pre {
+    display: inline-block;
+    background-color: rgb(250, 250, 3);
+    color: black;
+    margin-left: 10px;
+}
+
+#idhangsanxuat a:hover{
+    background-color: rgb(39, 190, 206);
+    color: white;
+}
+
+.highlight{
+    background-color: rgb(39, 190, 206);
+    color: white;
+}
+
+/*  foooter  */
+
+
+/*=-footer-=*/
+
+footer {
+    color: #fff;
+    background-attachment: fixed;
+    background-color: #222;
+    background-image: url(https://s7.postimg.org/uyf0oioaz/footer-bg.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+footer p {
+    color: #ccc;
+}
+
+footer a {
+    color: #ccc;
+}
+
+.social-pet li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-pet li a {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    line-height: 35px;
+    background-color: #3a5a95;
+    color: #fff;
+}
+
+.social-pet li:nth-child(2) a {
+    background-color: #57aced;
+}
+
+.social-pet li:nth-child(3) a {
+    background-color: #dd4f43;
+}
+
+.social-pet li:nth-child(4) a {
+    background-color: #6b27b2;
+}
+
+.social-pet li a:hover {
+    background-color: #0141a2;
+}
+
+.social-pet li a:hover i {
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.recent-post li {
+    display: block;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+.recent-post li label {
+    float: left;
+    border: 2px solid #ccc;
+    padding: 1px 7px;
+    text-align: center;
+}
+
+.recent-post li label span {
+    color: #fff;
+}
+
+footer .input-group-addon {
+    background-color: #0141a2;
+    padding: 10px;
+}
+
+.f-address li {
+    display: inline-block;
+}
+
+.f-address li i {
+    color: #2995de;
+    font-size: 18px;
+}
+
+.f-address li a {
+    color: #ccc;
+}
+
+
+/*=-Copyright-=*/
+
+.copyright {
+    background-color: #111;
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+
+/*
+    hết footer
+*/
+
+
+/*
+    list item 
+*/
+
+.item-list {
+    padding: 10px 10px;
+    width: 25%!important;
+    display: block;
+    float: left;
+}
+
+.item-list li {
+    border: 1px solid #cecece;
+    position: relative;
+}
+
+.info {
+    text-align: center;
+    padding: 20px 0px;
+    border-top: 1px solid #cecece;
+}
+
+.detail-info {
+    text-align: left;
+    padding: 20px 0px;
+    border-top: 1px solid #cecece;
+}
+
+.section-detail .list-item li .thumb,
+.section-detail .list-item li .thumb {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.section-detail .list-item li .thumb:before,
+.section-detail .list-item li .thumb:before {
+    position: absolute;
+    content: '';
+    border-top: 1px solid #C0AB90;
+    border-bottom: 1px solid #C0AB90;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    transform: scale(0, 1);
+    -moz-transform: scale(0, 1);
+    -webkit-transform: scale(0, 1);
+    -o-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    z-index: 2;
+}
+
+.section-detail .list-item li .thumb:after,
+.section-detail .list-item li .thumb:after {
+    position: absolute;
+    content: '';
+    border-left: 1px solid #C0AB90;
+    border-right: 1px solid #C0AB90;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    transform: scale(1, 0);
+    -moz-transform: scale(1, 0);
+    -webkit-transform: scale(1, 0);
+    -o-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    z-index: 2;
+}
+
+.section-detail .list-item li:hover .thumb:before,
+.section-detail .list-item li:hover .thumb:after,
+.section-detail .list-item li:hover .thumb:before,
+.section-detail .list-item li:hover .thumb:after {
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+}
+
+
+/*back to top*/
+
+#btn-to-top {
+    position: fixed;
+    text-align: center;
+    bottom: 20px;
+    right: 10px;
+    cursor: pointer;
+}

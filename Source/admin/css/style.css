@@ -1,0 +1,23 @@
+
+h1{
+    color:#6f42c1;
+    font-family: 'Roboto Condensed Bold';
+    text-align: center;
+}
+
+legend{
+    font-family: 'Roboto Condensed Bold';
+}
+h2{
+    color:#6f42c1;
+    font-family: 'Roboto Condensed Bold';
+    text-align: center;
+}
+
+#content{
+    margin-top: 60px;
+}
+
+#search_icon{
+    margin-top: -60px;
+}

@@ -1,0 +1,81 @@
+.containerSU{
+  margin-top: 20px;
+}
+.modal-content h1{
+  color: green;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.modal-content hr {  
+  border: 1px solid black;
+  margin: 20px 0px;
+}
+
+.modal-content{
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.modal-content h2{
+  color: royalblue;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.modal-content input{
+  margin-top: 15px;
+  width: 300px;
+}
+
+.Start{
+  color: red;
+  font-weight: bold;
+}
+
+.f-r{
+  float: right;
+}
+
+#eTen, #eUS, #ePS, #eRPS, #eKT{
+  color: red;
+  display: block;
+  float: right;
+}
+
+.KiemTra img{
+  margin-left: 210px;
+}
+
+.clearfix{
+  margin-top: 20px;
+}
+
+#signupbtn, #cancelbtn{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    float: left;
+}
+
+#signupbtn{
+  background-color: #4CAF50;
+  width: 350px;
+  height: 35px;
+}
+
+#cancelbtn{
+  background-color: red;
+  width: 350px;
+  height: 35px;
+}
+
+.clearfix button:hover {
+  opacity: 0.5;
+}
+
+#select{
+  width: 300px;
+}
+
+
